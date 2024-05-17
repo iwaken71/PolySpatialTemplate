@@ -1,0 +1,2 @@
+- Unity2022.3.18f1
+- com.unity.polyspatial 1.2.3
