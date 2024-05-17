@@ -36,7 +36,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ext.flatsharp": {
-      "version": "1.0.1",
+      "version": "1.1.1",
       "depth": 2,
       "source": "registry",
       "dependencies": {},
@@ -105,7 +105,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.polyspatial": {
-      "version": "1.0.3",
+      "version": "1.2.3",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -114,7 +114,7 @@
         "com.unity.collections": "2.1.4",
         "com.unity.textmeshpro": "3.0.7",
         "com.unity.xr.core-utils": "2.3.0",
-        "com.unity.ext.flatsharp": "1.0.1",
+        "com.unity.ext.flatsharp": "1.1.1",
         "com.unity.modules.particlesystem": "1.0.0",
         "com.unity.inputsystem": "1.4.4",
         "com.unity.modules.video": "1.0.0",
@@ -123,19 +123,19 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.polyspatial.visionos": {
-      "version": "1.0.3",
+      "version": "1.2.3",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.polyspatial": "1.0.3",
-        "com.unity.polyspatial.xr": "1.0.3",
-        "com.unity.xr.visionos": "1.0.3",
+        "com.unity.polyspatial": "1.2.3",
+        "com.unity.polyspatial.xr": "1.2.3",
+        "com.unity.xr.visionos": "1.2.3",
         "com.unity.xr.management": "4.4.0"
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.polyspatial.xr": {
-      "version": "1.0.3",
+      "version": "1.2.3",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -144,7 +144,7 @@
         "com.unity.textmeshpro": "3.0.7",
         "com.unity.xr.core-utils": "2.3.0",
         "com.unity.inputsystem": "1.4.4",
-        "com.unity.polyspatial": "1.0.3",
+        "com.unity.polyspatial": "1.2.3",
         "com.unity.xr.arfoundation": "5.1.0",
         "com.unity.xr.hands": "1.1.0"
       },
@@ -310,10 +310,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.visionos": {
-      "version": "1.0.3",
-      "depth": 0,
+      "version": "1.2.3",
+      "depth": 1,
       "source": "registry",
       "dependencies": {
+        "com.unity.xr.core-utils": "2.3.0",
         "com.unity.xr.arfoundation": "5.1.0",
         "com.unity.xr.management": "4.3.3"
       },
